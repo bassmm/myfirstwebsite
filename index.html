@@ -5,46 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website!</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--First Try at HTML bruh i have never done web dev :(-->
-    <img src="/images/funny.jpg" alt="A funny smiling emoji" title=":)">
+    <nav class="nav-bar">
+        <h3 class="nav-title"><i>bassam's s i t e</i></h3>
+        <div class="nav-tabs">
+            <a href="https://github.com/bassmm" target=_self title="Check out my Github page!">
+                Github
+            </a>
+            <a href="mailto:bassamtop123@gmail.com" target=_self title="Send me an email!">
+                Contact
+            </a>
+            <a href="aboutme.html" target=_self title="Get to know me!">
+                About Me
+            </a>
+        </div>
+    </nav>
 
-    <div id="greeting_zone" style="background-color: beige;">
+    <div class="greeter-text">
 
-        <video autoplay muted loop src="/videos/explosion.mp4"></video>
+        <h1>Welcome to my
+            <br>
+            page!
+        </h1>
 
-        <h1>Welcome to my page!</h1>
-        <audio controls src="audio/royalty free ukulele.mp3"></audio>
+    </div>
+
+    <hr>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, corporis!
+            Impedit omnis veniam ipsa quaerat
+            suscipit culpa unde dicta facilis porro dolorum. Harum ipsa voluptatem dicta quo aliquam ex omnis.</p>
+
+        <img src="images/vinyl.png" width="1000px">
 
     </div>
 
     <hr>
 
-    <p><span style="color: red;"><b>Lorem ipsum</b></span> dolor sit amet, consectetur adipisicing elit. Iure, corporis!
-        Impedit omnis veniam ipsa quaerat
-        suscipit culpa unde dicta facilis porro dolorum. Harum ipsa voluptatem dicta quo aliquam ex omnis.</p>
 
-    <hr>
-
-    <a href="https://github.com/bassmm" target=_self title="Check out my Github page!">
-        Github
-    </a>
-    |
-    <a href="mailto:bassamtop123@gmail.com" target=_self title="Send me an email!">
-        Contact
-    </a>
-    |
-    <a href="aboutme.html" target=_self title="Get to know me!">
-        <i>About me!</i>
-    </a>
 
     <br>
     <br>
 
-    <iframe style="border:0;" src="ad.html" width="640" height="100"></iframe>
+    <iframe class="ads" src="ad.html" width="640" height="100"></iframe>
 </body>
 
 </html>
